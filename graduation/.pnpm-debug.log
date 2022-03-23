@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "shortMessage": "Command failed with exit code 1: D:\\nodejs\\pnpm.CMD add create-vite --global --global-dir C:\\Users\\admin\\AppData\\Local\\Temp\\dlx-15024 --dir C:\\Users\\admin\\AppData\\Local\\Temp\\dlx-15024",
+    "command": "D:\\nodejs\\pnpm.CMD add create-vite --global --global-dir C:\\Users\\admin\\AppData\\Local\\Temp\\dlx-15024 --dir C:\\Users\\admin\\AppData\\Local\\Temp\\dlx-15024",
+    "escapedCommand": "\"D:\\nodejs\\pnpm.CMD\" add create-vite --global --global-dir \"C:\\Users\\admin\\AppData\\Local\\Temp\\dlx-15024\" --dir \"C:\\Users\\admin\\AppData\\Local\\Temp\\dlx-15024\"",
+    "exitCode": 1,
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 1: D:\\nodejs\\pnpm.CMD add create-vite --global --global-dir C:\\Users\\admin\\AppData\\Local\\Temp\\dlx-15024 --dir C:\\Users\\admin\\AppData\\Local\\Temp\\dlx-15024",
+      "stack": "pnpm: Command failed with exit code 1: D:\\nodejs\\pnpm.CMD add create-vite --global --global-dir C:\\Users\\admin\\AppData\\Local\\Temp\\dlx-15024 --dir C:\\Users\\admin\\AppData\\Local\\Temp\\dlx-15024\n    at makeError (D:\\nodejs\\node_modules\\pnpm\\dist\\pnpm.cjs:42502:17)\n    at handlePromise (D:\\nodejs\\node_modules\\pnpm\\dist\\pnpm.cjs:43073:33)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Object.handler (D:\\nodejs\\node_modules\\pnpm\\dist\\pnpm.cjs:177503:7)\n    at async D:\\nodejs\\node_modules\\pnpm\\dist\\pnpm.cjs:182194:21\n    at async run (D:\\nodejs\\node_modules\\pnpm\\dist\\pnpm.cjs:182168:34)\n    at async runPnpm (D:\\nodejs\\node_modules\\pnpm\\dist\\pnpm.cjs:182387:5)\n    at async D:\\nodejs\\node_modules\\pnpm\\dist\\pnpm.cjs:182379:7"
+    }
+  }
+}
